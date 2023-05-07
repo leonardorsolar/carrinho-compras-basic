@@ -1,8 +1,5 @@
 import { Produto } from "./produto";
 
-type StatusPedido = "aberto" | "fechado";
-type ItensCarrinho = { nome: string; preco: number };
-
 export class CarrinhoCompras {
   private readonly itens: Produto[] = [];
 
